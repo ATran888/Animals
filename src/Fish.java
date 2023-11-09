@@ -1,5 +1,5 @@
 public class Fish extends Animal {
     public Fish(String name) {
-        super(name, 0, "Bubble");
+        super(name, 0, "Blub blub!");
     }
 }

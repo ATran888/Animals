@@ -15,6 +15,20 @@ class Main {
         daisy.getLegs();
 
         Fish jack = new Fish("Jack");
+        jack.say("hello");
+        jack.getLegs();
+
+        Bird jesse = new Bird("Jesse");
+        jesse.say("hello");
+        jesse.getLegs();
+
+        Insect bob = new Insect("Bob");
+        bob.say("hello");
+        bob.getLegs();
+
+        Monkey jairius = new Monkey("Jairius");
+        jairius.say("hello");
+        jairius.getLegs();
 
     }
 }

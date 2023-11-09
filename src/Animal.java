@@ -15,7 +15,8 @@ public class Animal {
         System.out.println(name + " says " + sound);
     }
 
-    public void getLegs() {
-        return int legs;
+    public int getLegs() {
+        return legs;
+        //System.out.println(name + " has " + name.getLegs() + " legs");
     }
 }
